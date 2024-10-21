@@ -68,4 +68,6 @@ echo "SSL check completed. Results saved in $result_file.\n";
 ```
 7.  to run this code, you can use terminal and run : ```bash php check_ssl.php```
 
-thanks to : sslscan https://www.kali.org/tools/sslscan/
+thanks to : 
+- php
+- sslscan https://www.kali.org/tools/sslscan/
