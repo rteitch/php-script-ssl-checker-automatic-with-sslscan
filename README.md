@@ -7,10 +7,10 @@ System Requirments
 1. Check if you have installed php
 2. Install sslscan on ubuntu : ```bash sudo apt-get install sslscan```
 3. Create 2 files ```bash domains.txt``` and ```bash check_ssl.php``` run code : touch ```bash domains.txt check_ssl.php```
-4. on domains.txt input domain what you want make separate with new line, example :
+4. on ```bash domains.txt``` input domain what you want make separate with new line, example :
 google.com
 facebook.com
-6.  on check_ssl.php copy paste this code
+6.  on ```bash check_ssl.php``` copy paste this code
 ```php
 <?php
 // Membaca daftar domain dari file
@@ -64,4 +64,4 @@ foreach ($domains as $domain) {
 echo "SSL check completed. Results saved in $result_file.\n";
 ?>
 ```
-7.  to run this code, you can use terminal and run : php check_ssl.php
+7.  to run this code, you can use terminal and run : ```bash php check_ssl.php```
