@@ -11,7 +11,7 @@ System Requirments
 google.com
 facebook.com
 6.  on check_ssl.php copy paste this code
-<code>
+```php
 <?php
 // Membaca daftar domain dari file
 $domain_file = 'domains.txt';
@@ -63,6 +63,5 @@ foreach ($domains as $domain) {
 
 echo "SSL check completed. Results saved in $result_file.\n";
 ?>
-
-</code>
+```
 7.  to run this code, you can use terminal and run : php check_ssl.php
