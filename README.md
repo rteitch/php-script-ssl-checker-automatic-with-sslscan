@@ -8,8 +8,9 @@ System Requirments
 2. Install sslscan on ubuntu : ```bash sudo apt-get install sslscan```
 3. Create 2 files ```bash domains.txt``` and ```bash check_ssl.php``` run code : touch ```bash domains.txt check_ssl.php```
 4. on ```bash domains.txt``` input domain what you want make separate with new line, example :
-google.com
+```text google.com
 facebook.com
+```
 6.  on ```bash check_ssl.php``` copy paste this code
 ```php
 <?php
