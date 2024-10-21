@@ -13,7 +13,8 @@ google.com
 facebook.com
 ```
 6.  on ```bash check_ssl.php``` copy paste this code
-```php<?php
+```php
+<?php
 // Read the list of domains from a file
 $domain_file = 'domains.txt';
 $domains = file($domain_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
@@ -64,6 +65,7 @@ foreach ($domains as $domain) {
 
 echo "SSL check completed. Results saved in $result_file.\n";
 ?>
-
 ```
 7.  to run this code, you can use terminal and run : ```bash php check_ssl.php```
+
+thanks to : sslscan https://www.kali.org/tools/sslscan/
